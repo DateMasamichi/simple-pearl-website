@@ -1,0 +1,38 @@
+/* Set the background to a pearl-like color */
+body {
+    background-color: #f1f1f1; /* Pearl color background */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the 3 cards */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style for each card with round images */
+.card {
+    margin: 20px;
+    text-align: center;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Styling for the text under the image */
+.text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
